@@ -1,0 +1,4 @@
+level 8
+
+websites = [] 
+websites = ["codewars"] * 1000

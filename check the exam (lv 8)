@@ -1,0 +1,15 @@
+level 8
+
+def check_exam(arr1,arr2):
+    total = 0
+    for i in range(0, len(arr1)):
+        if arr1[i] == arr2[i]:
+            total = total + 4
+        elif arr2[i] == '':
+            total = total + 0
+        else:
+            total = total - 1
+    if total < 0:
+        return 0
+    else:
+        return total
