@@ -11,6 +11,7 @@ def my_hash_map(list_of_strings):
         for letter in word:
             total = total + ord(letter)
         dict[total] = [word]
+        total = 0
     return dict
     
   ```
