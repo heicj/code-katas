@@ -1,0 +1,10 @@
+level 8
+
+```
+def century(year):
+    # Finish this :)
+    if year % 100 > 0:
+        return year//100 +1
+    else:
+        return year//100
+ ```
