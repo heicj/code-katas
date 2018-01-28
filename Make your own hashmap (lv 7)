@@ -4,10 +4,13 @@
 def my_hash_map(list_of_strings):
     #return hashmap
     total = 0
+    dict = { }
     for i in range(0, len(list_of_strings)):
         word = list_of_strings[i]
+        
         for letter in word:
             total = total + ord(letter)
-    return {total: list_of_strings}
+        dict[total] = [word]
+    return dict
     
   ```
