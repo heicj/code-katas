@@ -1,0 +1,10 @@
+level 7
+
+def magic_sum(arr):
+    total = 0
+    if arr != None:
+        for num in arr:    
+            numtype = type(num/10)
+            if num % 10 == 3 or isinstance(numtype,int):
+                total = total + num
+    return total
